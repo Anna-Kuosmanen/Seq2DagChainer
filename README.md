@@ -1,4 +1,4 @@
-<h1>DAGChainer</h1>
+<h1>Seq2DagChainer</h1>
 <p>This is a preliminary implementation of the algorithms proposed in the article ”Using Minimum Path Cover to Boost Dynamic Programming in DAGs: Co-linear Chaining Extended” by A. Kuosmanen, T. Paavilainen, T. Gagie, R. Chikhi, A. Tomescu and V. Mäkinen (presented in <i>RECOMB2018</i>).</p>
 
 <p>ColinearSolver class is the main class implementing the algorithms. SequenceGraph models a graph where each node represents a single base. Currently SequenceGraph class supports only creation from a splicing graph. There are two approaches available for finding maximal exact matches (to be used as anchors for the colinear chain algorithm) between a sequence graph and a sequence: slow naive approach based on graph traversal and fast approach based on GCSA2. Additionally the project includes various utility classes, such as a static Range Maximum Query Tree implementation, SAM format reader and FASTA format reader.</p>
@@ -18,7 +18,7 @@
 
 <h1>Getting started</h1>
 <h2>Prerequisites</h2>
-<p>DAGChainer uses GCSA2[3], SDSL[4] and LEMON[5] libraries. Also the software VG[6] needs to be in the system path, as it is used to transform the splicing graphs into input format suitable for GCSA2 indexing.</p>
+<p>Seq2DagChainer uses GCSA2[3], SDSL[4] and LEMON[5] libraries. Also the software VG[6] needs to be in the system path, as it is used to transform the splicing graphs into input format suitable for GCSA2 indexing.</p>
 
 <h2>Building</h2>
 
