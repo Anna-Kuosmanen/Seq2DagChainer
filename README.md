@@ -54,7 +54,7 @@ Other options:
 </ul>
 
 <h1>Contact</h1>
-aekuosma@cs.helsinki.fi
+anna.kuosmanen@helsinki.fi
 
 <h1>Citation</h1>
 
